@@ -17,7 +17,7 @@ export type ApiEndpoint = {
   response: string;
 };
 
-const BASE = "https://api-wilayah-indonesia-pi.vercel.app/";
+const BASE = "https://api-wilayah-indonesia-pi.vercel.app/v2";
 
 // Response diambil dari output tools/generate_static_api.go (genResponse + genPlace / genShortItem)
 // Lihat api/*.json setelah go run ./tools generate-static-api
